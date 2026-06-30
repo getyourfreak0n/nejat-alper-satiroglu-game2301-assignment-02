@@ -6,8 +6,14 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/TechnicalArt.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: Assets/Scenes/01MarbleWorld.unity
+    guid: 4cb4d991038074443ba5d74581997f3c
+  - enabled: 1
+    path: Assets/Scenes/02IcyWorld.unity
+    guid: 0ad37e3ed184a9940abb62044eb3bf6e
+  - enabled: 1
+    path: Assets/Scenes/03ScorchingWorld.unity
+    guid: f7ed6368bc13d7b41a784b76c4d27e49
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: aaffa77297e5ca24096b053d603730cd, type: 3}
   m_UseUCBPForAssetBundles: 0

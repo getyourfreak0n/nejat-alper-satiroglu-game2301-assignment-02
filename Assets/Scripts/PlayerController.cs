@@ -36,7 +36,7 @@ public class PlayerController : MonoBehaviour
     {
         movement = new Vector3(playerInput.x * MovementSpeed, rb.linearVelocity.y, playerInput.y * MovementSpeed);
         
-        rb.linearVelocity = movement;
+        rb.AddForce(movement, ForceMode.Force);
         
         HandleRotation();
     }
